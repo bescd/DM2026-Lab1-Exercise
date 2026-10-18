@@ -67,7 +67,7 @@ _MODEL_BY_BACKEND = {
     "gemini": "gemini-3.6-flash",
 }
 _DEFAULT_REQUEST_TIMEOUT_SECONDS = 60
-_MAX_NUMBERED_KEYS = 10
+_MAX_NUMBERED_KEYS = 100
 
 
 def _is_placeholder(value: str) -> bool:
